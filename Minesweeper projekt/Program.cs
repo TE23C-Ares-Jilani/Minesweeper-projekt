@@ -19,3 +19,16 @@ class Minesweeper
         Raylib.CloseWindow(); // Close the window when the game loop exits
     }
 }
+static int rows = 16;
+static int cols = 16;
+static int cellSize = 40;
+static bool[,] revealed = new bool[rows, cols];
+
+// Function to draw the game board 
+static void DrawBoard()
+{
+    for (int i = 0; i < rows; i++)
+    {
+        
+    }
+}
