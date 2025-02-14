@@ -50,3 +50,11 @@ class Program
         }
     }
 }
+Static void HandleMouseClick()
+{
+    if (Raylib.IsMouseButtonPressed(MouseButton.Left))
+    {
+        Vector2 mousePos = Raylib.GetMousePosition();
+        int col = (int)()
+    }
+}
