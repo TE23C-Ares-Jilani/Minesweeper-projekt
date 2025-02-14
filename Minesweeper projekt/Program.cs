@@ -41,11 +41,11 @@ class Program
                 int x = j * cellSize; // X position of the tile
                 int y = i * cellSize; // Y position of the tile
                 
-                // Draw a rectangle for each tile
+                // Draw tiles
                 Raylib.DrawRectangle(x, y, cellSize, cellSize, revealed[i, j] ? Color.LightGray : Color.Gray);
 
-                // Draw grid lines to separate the tiles (make them white for visibility)
-                Raylib.DrawRectangleLines(x, y, cellSize, cellSize, Color.White);
+                // Draw grid lines 
+                Raylib.DrawRectangleLines(x, y, cellSize, cellSize, Color.Black);
             }
         }
     }
